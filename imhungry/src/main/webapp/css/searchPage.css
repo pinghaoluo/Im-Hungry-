@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #ff9d98;
+}
+
+div#login.loginform
+{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position:absolute;
+	top:50%;
+	left:43%;
+}
+
+div#signup.signupform
+{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position:absolute;
+	top:50%;
+	left:43%;
+}
+
+#nlog
+{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position:absolute;
+	top:2%;
+	left:2%;
+}
+
+#log
+{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position:absolute;
+	top:2%;
+	left:2%;
+}
+
+#buttonlogin {
+    background-color: lightblue;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+#buttonlogin:hover {
+    border: none;
+    background:#00ecda;
+    box-shadow: 0px 0px 1px #777;
+}
+
+
+#header{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 10rem;
+	text-align: center;
+	padding-top: 20vh;
+}
+
+#format{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5vh;
+	display: block;
+    text-align: center;
+}
+
+#search{
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid lightblue;
+	width: 25vw;
+	font-size: 2rem;
+}
+
+#number{
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid lightblue;
+	font-size: 2rem;
+	margin-left:1rem;
+	width: 4rem;
+}
+#radius{
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid lightblue;
+	font-size: 2rem;
+	margin-left:1rem;
+	width: 6rem;
+}
+
+#submit {
+	font-family: 'Roboto', sans-serif;
+	size: 10vw;
+	width:5.5rem;
+  	height:5.5rem;
+	color: red;
+	margin-top: 5vh;
+}
+
+#hover_text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: #6d6d6d;
+}
+
+#hover_format{
+	font-family: 'Roboto', sans-serif;
+	display: inline;
+}
+
+#hover_text{
+	font-family: 'Roboto', sans-serif;
+	margin-left:1rem;
+	margin-top:1rem;
+	position:absolute;
+	left:71%;
+	display: none;
+}
+#hover_format:hover #hover_text {
+	font-family: 'Roboto', sans-serif;
+  display: inline;
+}
+
+#hover_text1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: #6d6d6d;
+}
+
+#hover_format1{
+	font-family: 'Roboto', sans-serif;
+	display: inline;
+}
+
+#hover_text1{
+	font-family: 'Roboto', sans-serif;
+	margin-left:1rem;
+	margin-top:1rem;
+	position:absolute;
+	left:71%;
+	display: none;
+}
+#hover_format1:hover #hover_text1 {
+	font-family: 'Roboto', sans-serif;
+  display: inline;
+}
+
+#quickAccess
+{
+	font-family: 'Roboto', sans-serif;
+	background-color: #00ecda;
+	border: 5px solid lightblue;
+	position:absolute;
+	left:70%;
+	top:70%;
+	width:18%;
+}
+
+#quickAccess1
+{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-decoration: underline overline;
+	font-size: 1.5rem;
+}
+
+#quickAccess2
+{
+	font-family: 'Roboto', sans-serif;
+	background-color: lightblue;
+	border: 5px solid lightyellow;
+}
+
+#quickAccess2 A:hover
+{
+	font-family: 'Roboto', sans-serif;
+	background-color: black;
+	border: 5px solid lightyellow;
+}
+
+A
+{
+	font-family: 'Roboto', sans-serif;
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+	color: lightyellow;
+}
+
+
+#display_grocery{
+	font-family: 'Roboto', sans-serif;
+    background:#A8A8A8; 
+    color: white;
+    width:15vw;
+	border: 0;
+	box-shadow: none;
+	border-radius: 0;
+	font-size:1.5rem;
+	cursor: pointer;
+	padding: 0;
+	position: absolute;
+   	right:5vw;
+   	top:calc(21vh  - 3rem);
+   	background-color:#ffc1ab;
+}
+
+#login3
+{
+	visibility:hidden;
+	position:absolute;
+	top:90%;
+	left:90%;
+}

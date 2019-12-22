@@ -1,0 +1,4 @@
+language: java
+script:
+  - cd imhungry
+  - mvn clean install

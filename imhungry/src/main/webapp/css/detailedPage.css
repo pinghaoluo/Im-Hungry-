@@ -1,0 +1,189 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #ff9d98;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+
+a{
+	font-family: Helvetica, sans-serif;
+	color: inherit;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color: lightblue;
+}
+
+button {
+	font-family: 'Roboto', sans-serif;
+	background-color:#ffc1ab;
+	color: white;
+	width:15vw;
+	min-width: 12rem;
+	border: 0;
+	box-shadow: none;
+	border-radius: 0;
+	font-size:1.5rem;
+	cursor: pointer;
+	padding: 0;
+}
+
+.backToResults {
+	position: fixed;
+	margin-bottom:0;
+	right: 20vw;
+	top:calc(20vh + 3rem)
+}
+
+.printableVersion {
+	position: fixed;
+	margin-bottom:0;
+	right: 20vw;
+	top:20vh;
+}
+
+.addToList {
+	position: fixed;
+	margin-bottom:0;
+	right: 20vw;
+	top:calc(20vh + 9rem);
+}
+
+.addToGrocery {
+	position: fixed;
+	margin-bottom:0;
+	right: 20vw;
+	top:calc(20vh + 12rem);
+}
+
+.dropDown {
+	position: fixed;
+	width:15vw;
+	min-width: 12rem;
+	right:20vw;
+	top:calc(20vh + 6rem);
+	font-size:1rem;
+}
+
+.dropDown select {
+  display: none;
+}
+
+.select-selected {
+  background-color: White;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #6d6d6d transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #6d6d6d transparent;
+  top: 7px;
+}
+
+.select-items div,.select-selected {
+  color: #6d6d6d;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+.select-items {
+  position: absolute;
+  background-color: White;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.gif
+{
+	overflow: hidden;
+	position: fixed;
+	left:68%;
+	top:6%;
+}
+.gif img
+{
+	width:6%;
+	height:auto;
+}
+.textinfo
+{
+	font-family: 'Roboto', sans-serif;
+	position:absolute;
+	left: 20vw;
+	top: 20vh;
+	width: 40vw;
+	color: #6d6d6d;
+	font-size: 1rem;
+	color:white;
+}
+
+#title
+{
+	margin-top: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size:3rem;
+}
+
+#login3
+{
+	visibility:hidden;
+	position:absolute;
+	top:90%;
+	left:90%;
+}
+
+#buttonlogin {
+    background-color: lightblue;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+#buttonlogin:hover {
+    border: none;
+    background:#00ecda;
+    box-shadow: 0px 0px 1px #777;
+}
+
+#log
+{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position:absolute;
+	top:2%;
+	left:2%;
+}
+			
